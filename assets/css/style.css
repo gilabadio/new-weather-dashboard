@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  :root {
+    --primary-color: #fff;
+    --tertiary-color: #0c8b9e;
+  }
+  
+  header h1 {
+    font-size: 50px;
+  }
+  
+  #searchBar {
+    display: grid;
+    grid-template-columns: auto 44px;
+    gap: 5px;
+    margin-bottom: 20px;
+  }
+  
+  #searchText {
+    width: 100%;
+    grid-column: 1 / span 1;
+  }
+  
+  #currentDeg {
+    top: -47px;
+    right: -30px;
+    font-size: 60px;
+  }
